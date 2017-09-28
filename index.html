@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<html ng-app="myApp">
+	<head>
+		<meta charset="utf-8">
+		<title>LastXXp</title>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+		<script src="using-api.js"></script>
+	</head>
+
+	<body>
+		<div ng-controller="Ctrl">
+			<ul ng-repeat="track in topTracks">
+				<li>{{track.name}}</li>
+			</ul>
+		</div>
+	</body>
+</html>
